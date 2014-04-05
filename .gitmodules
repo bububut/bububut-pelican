@@ -1,0 +1,3 @@
+[submodule "output"]
+	path = output
+	url = https://bububut@github.com/bububut/bububut.github.io.git
