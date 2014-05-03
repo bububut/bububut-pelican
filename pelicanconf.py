@@ -3,10 +3,10 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'bububut'
-SITENAME = u'BloBloBlog'
+SITENAME = u'鼻有鼻有鼻有涕'
 SITEURL = 'http://bububut.github.io'
 
-THEME = 'themes/svbhack'
+THEME = 'themes/bububut'
 
 DEFAULT_LANG = u'ch'
 TIMEZONE = 'Asia/Shanghai'
@@ -15,6 +15,8 @@ DEFAULT_DATE = 'fs'
 
 ARTICLE_URL = '{date:%Y}/{slug}.html'
 ARTICLE_SAVE_AS = '{date:%Y}/{slug}.html'
+
+MD_EXTENSIONS = ['extra']
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
