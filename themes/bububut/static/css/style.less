@@ -109,10 +109,20 @@ main {
       }
 
       blockquote {
-        margin: 22px 2px 22px 2px;
-        padding-left: 40px;
-        color: @med-grey;
-        font-style: italic;
+        margin: 0 0 15px;
+        border-left: 10px solid rgba(102, 128, 153, 0.075);
+        background-color: rgba(102, 128, 153, 0.05);
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        padding: 15px 20px;
+
+        p, ol, ul {
+          margin-top: 0;
+          margin-bottom: 15px;
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
       }
 
       table {
@@ -128,6 +138,7 @@ main {
     div#article_meta {
       font-size: 0.625em;
       color: @med-grey;
+      margin-top: 40px;
     }
   }
 
